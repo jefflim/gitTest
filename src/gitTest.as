@@ -4,10 +4,14 @@ package {
 
 	public class gitTest extends Sprite {
 		public function gitTest() {
-			//git first change
+			this.addEventListener(Event.ADDED_TO_STAGE, init);
 		}
 		
 		private function init(e:Event):void{
+			this.removeEventListener(Event.ADDED_TO_STAGE, init);
+		}
+		
+		private function destroy(e:Event):void{
 			
 		}
 	}
