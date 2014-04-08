@@ -14,7 +14,7 @@ package {
 			
 			_container = new Sprite();
 			_container.x = 200;
-			_container.y = 300;
+			_container.y = 3000;
 			addChild(_container);
 		}
 		
