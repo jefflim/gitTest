@@ -13,6 +13,8 @@ package {
 			this.addEventListener(Event.REMOVED_FROM_STAGE, destroy);
 			
 			_container = new Sprite();
+			_container.x = 100;
+			_container.y = 100;
 			addChild(_container);
 		}
 		
